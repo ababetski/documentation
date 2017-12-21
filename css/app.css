@@ -1,0 +1,117 @@
+ 
+/********************************************/
+/* Hey there. This stylesheet is broken up 
+into the following sections.
+
+SECTION 1: GENERAL STYLES
+SECTION 2: CUSTOM CLASSES & IDS
+SECTION 3: BUTTONS
+SECTION 4: MENU AND NAV
+SECTION 5: OFF CANVAS NAV
+SECTION 6: MAIN DIVS AS THEY APPEAR IN THE HTML
+SECTION 7: FOOTER
+SECTION 8: MEDIA QUERIES - THIS SITE WAS BUILT 
+MOBILE FIRST. SO THE MEDIA QUERIES PERTAIN TO 
+MEDIUM AND LARGE SCREENS. */
+/********************************************/
+
+/********************************************/
+/* GENERAL STYLES */
+/********************************************/
+ * {
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	font-family: 'Raleway,' sans-serif;
+ }
+
+ header {
+ 	background-color: #00c26e;
+ }
+
+ header h1 {
+ 	text-align: center;
+ }
+
+.hero {
+	background-image: url(../img/girlsonphones2.jpg);
+	background-size: cover;
+	background-position: bottom;
+	padding: 6em 10%;
+}
+
+.hero .row {
+	width: 66%;
+	background-color: rgba(0,0,0,.8);
+	border-radius: 25px;
+	padding: 1em 5%;
+}
+
+.hero blockquote {
+	border-color: #00c26e;
+}
+
+.hero h2, .hero h5 {
+	color: #fff;
+}
+
+.hero h2 {
+	font-size: 1.75em;
+}
+
+.hero h5 {
+	color: #00c26e;
+	margin-left: 4%;
+}
+
+.relative {
+	position: relative;
+}
+
+main .panel h3 {
+	text-transform: uppercase;
+}
+
+main .panel p {
+	margin-bottom: 3em;
+}
+
+main .button {
+	background-color: #00c26e;
+	position: absolute;
+	bottom: 0;
+	left: 20;
+}
+
+main .button:hover {
+	background-color: #444;
+}
+
+footer {
+	background-color: #00c26e;
+	margin-bottom: 0;
+}
+
+footer h6 {
+	text-align: center;
+	margin-bottom: 0;
+	padding: 1em 2%;
+}
+
+
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+/* Medium screens */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+
+} 
+
+/* min-width 1025px, large screens */
+/* Large screens */
+@media only screen and (min-width: 64.063em) { 
+
+} 
+
